@@ -14,7 +14,7 @@ void exibirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
 
 int posicionarNavioHorizontal(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int linha, int coluna) {
     if (coluna + TAMANHO_NAVIO > TAMANHO_TABULEIRO) {
-        return 0;  // Não cabe horizontalmente
+        return 0;  
     }
     
     for (int i = coluna; i < coluna + TAMANHO_NAVIO; i++) {
